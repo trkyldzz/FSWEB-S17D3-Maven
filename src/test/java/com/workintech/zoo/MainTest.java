@@ -61,7 +61,7 @@ class MainTest {
         assertEquals(2.0, kangaroo.getHeight());
         assertEquals(85.0, kangaroo.getWeight());
         assertEquals("Male", kangaroo.getGender());
-        assertEquals(false, kangaroo.getIsAggressive());
+        assertEquals(false, kangaroo.isAggressive());
     }
 
     @Test
@@ -74,7 +74,7 @@ class MainTest {
         kangaroo.setHeight(1.8);
         kangaroo.setWeight(70.0);
         kangaroo.setGender("Female");
-        kangaroo.setIsAggressive(true);
+        kangaroo.setAggressive(true);
 
 
         assertEquals(2, kangaroo.getId());
